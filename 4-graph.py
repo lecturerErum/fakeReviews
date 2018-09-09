@@ -5,7 +5,7 @@ import pandas as pd
 
 
 
-mainDataset = pd.read_csv(r'E:\Hina\MS\IR\final\finalOutput.csv')
+mainDataset = pd.read_csv(r'PATH\finalOutput.csv')
 mainDataset.head()
 mainDataset.describe
 mainDataset.info()
