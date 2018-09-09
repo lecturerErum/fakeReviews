@@ -8,7 +8,7 @@ This is a temporary script file.
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-dataset_url = 'E://Hina//MS//IR//output//hotel_100507.csv'
+dataset_url = 'PATH/hotel_100507.csv'
 data = pd.read_csv(dataset_url)
 data.head()
 print(data)
