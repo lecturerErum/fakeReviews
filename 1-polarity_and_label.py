@@ -16,11 +16,11 @@ import csv
 import re
 from collections import Counter
 
-path = r'E:\Hina\MS\IR\sample\*.txt' #note C:
+path = r'PATH\*.txt' #note C:
 corpus = []
 i=0
 files = glob.glob(path)
-outpath = r'E:\Hina\MS\IR\output'
+outpath = r'PATH'
 for name in files:
     with open(name,encoding='ascii',errors='ignore') as f:
         folderName = outpath + '/' + os.path.splitext(ntpath.basename(name))[0]
