@@ -5,8 +5,8 @@ import os
 import re
 from collections import Counter
 
-outpath = r'E:\Hina\MS\IR\output\*.csv'
-finalOutputFile =r'E:\Hina\MS\IR\final\finalOutput.csv'
+outpath = r'PATH\*.csv'
+finalOutputFile =r'PATH\finalOutput.csv'
 text = open(finalOutputFile, "w")
 outputFiles = glob.glob(outpath)
 header = "Hotel,flablel,nflabel\n"
