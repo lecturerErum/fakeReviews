@@ -21,7 +21,6 @@ corpus = []
 i=0
 files = glob.glob(path)
 outpath = r'E:\Hina\MS\IR\output'
-accuracy = '72.8%'
 for name in files:
     with open(name,encoding='ascii',errors='ignore') as f:
         folderName = outpath + '/' + os.path.splitext(ntpath.basename(name))[0]
